@@ -1,0 +1,281 @@
+nav ul{
+    right:20;
+    position:absolute;
+}
+.blue-btn{
+    background-color: #0099cc;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform:uppercase;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+.blue-btn:focus{
+    outline: none;
+}
+.first-screen{
+    margin-top: 70px;
+    background-image: url('header.jpg');
+    height:590px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 100px;
+    color:white;
+   
+}
+.offer{
+    max-width: 400px;
+}
+.transparent-btn{
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    height: 55px;
+    padding: 0 30px;
+    font-size: 16pt;
+    cursor: pointer;
+}
+.form-section{
+    padding: 50px 0;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.form-section form .form-btn{
+    border-radius: 0;
+}
+
+.form-section input{
+    background-color: #cccccc;
+    border:none;
+    height: 50px;
+    padding: 20px;
+    margin:10px 10px;
+    font-style: italic;
+  
+}
+
+.about-us{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 70px;
+}
+.about-us-image{
+    border: 7px solid white;
+    max-width: 340px;
+    box-shadow: 0px 0px 5px black;
+}
+.about-us-description{
+    
+    max-width: 600px;
+   position: relative;
+    font-size: 18px;
+    
+}
+
+.orange-color{
+    color:#fdd687;
+}
+.gray-color{
+    color:#999999;
+}
+.blue-color{
+    color: #0099cc;
+}
+
+
+
+.card-img{
+    width:290px;
+    height: 230px;
+    border: 7px solid white;
+    box-shadow: 0px 0px 1px gray;
+    border-radius: 0;
+}
+.card{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:500;
+    border:0;
+    position:relative;
+}
+
+.card p{
+    margin-top: 10px;
+}
+.card img{
+    margin: 0 auto;
+}
+.on-hover{
+    background-color: rgba(121,180,218,0.5);
+    position: absolute;
+    margin-left: 9px;
+    width:290px;
+    height: 230px;
+    display: none;
+   
+}
+.transparent-btn:hover{
+ background-color: #00ccff;   
+}
+.offer{
+    max-width: 400px;
+    font-size: 18pt;
+}
+.sale{
+    font-size: 50pt;
+    color: #00ccff;
+}
+.card:hover .on-hover{
+    display: block;
+}
+.on-hover .transparent-btn{
+    position: absolute;
+    left:70;
+    top:80;
+    
+    
+}
+.exclusive-tour{
+    background-image: url('image/long-boat.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mykonos{
+    background-color: rgba(255,255, 255, 0.75);
+    height: 100%;
+    text-align: center;
+    padding: 100px 50px;
+}
+.darkgray-color{
+   color: #777777;
+}
+.packages{
+
+    background-image: url("image/packages-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.packages .container .row{
+    min-height:190px;
+    margin-bottom: 30px;
+   
+}
+
+.gray-clock-logo{
+    list-style-image: url(image/time-icon.png);
+}
+.gray-location-logo{
+    list-style-image: url(image/location-icon.png)
+}
+.input-group{
+    margin: 0 auto;
+}
+.email{
+    height: 55px;
+    background-color: lightgray;
+    padding-left: 20px;
+    width: 25px;
+}
+.contacts{
+    background-image: url(/image/packages-bg.jpg);
+    min-height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.touch{
+    padding: 70px 50px;
+}
+.phone{
+    list-style-image: url('/image/blue-phone-icon.png');
+
+}
+.mail{
+    list-style-image: url('/image/blue-email-icon.png');
+}
+.location{
+    list-style-image: url('/image/blue-location-icon.png');
+}
+.twitter-icon{
+    list-style-image: url('/image/twitter-icon.png');
+}
+a{
+    color: #0ed9e6;
+    text-decoration: none;
+}
+a:hover:hover{
+    text-decoration: none;
+    color: #00ccff
+}
+.posts{
+    list-style-image: url('/image/post-icon.png')
+}
+.contacts li{
+    padding-bottom: 10px;
+}
+.contacts h6{
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #292828;
+}
+.social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e1e1e1;
+    position: relative;
+}
+.fb, .twi, .insta{
+  position: absolute;
+  top: 10;
+  right: 10;
+}
+.fb{
+    right: 15;
+}
+
+.link{
+    color: #fcd890;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+    color: #fcd890;
+}
+@media all and (max-width:992px){
+    .about-us-description .blue-btn{
+    position: relative;
+
+}
+    .about-us-image{
+        display: none;
+    }
+    nav ul{
+    
+    position:relative;
+margin-left: 5%
+}
+}
+@media all and (min-width:992px){
+    .about-us-description .blue-btn{
+    position: absolute;
+
+    right:0;
+}
+
+}

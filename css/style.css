@@ -1,0 +1,53 @@
+nav .collapse ul {
+    margin-left: 55%;
+}
+.blue-btn{
+    background-color: #0099cc;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform:uppercase;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+}
+.blue-btn:focus{
+    outline: none;
+}
+.first-screen{
+    margin-top: 70px;
+    background-image: url('header.jpg');
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.exclusive-tour{
+    background-image: url('/image/long-boat.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mykonos{
+    background-color: rgba(147, 146, 146, 0.5);
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.color-blue{
+    color: #1289d5;
+    text-transform: uppercase;
+    font-size: 28pt;
+    /* font-weight: bold; */
+}
+
+.lorem{
+   color: #777777;
+}
